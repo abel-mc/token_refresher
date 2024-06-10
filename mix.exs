@@ -12,6 +12,9 @@ defmodule TokenRefresher.MixProject do
       package: package(),
       # Add this line
       elixirc_paths: elixirc_paths(Mix.env()),
+      name: "Token Refresher",
+      source_url: "https://github.com/abel-mc/token_refresher",
+      homepage_url: "https://github.com/abel-mc/token_refresher",
       docs: [
         # The main page in the docs
         main: "readme",
